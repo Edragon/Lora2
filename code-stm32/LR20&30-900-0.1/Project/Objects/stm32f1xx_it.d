@@ -1,37 +1,33 @@
-.\objects\stm32f1xx_it.o: ..\Core\stm32f1xx_it.c
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h
-.\objects\stm32f1xx_it.o: ..\Core\stm32f1xx_hal_conf.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h
-.\objects\stm32f1xx_it.o: ..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h
-.\objects\stm32f1xx_it.o: ..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h
-.\objects\stm32f1xx_it.o: ..\SDK\CMSIS\Include\core_cm3.h
-.\objects\stm32f1xx_it.o: D:\T09_Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\stm32f1xx_it.o: ..\SDK\CMSIS\Include\cmsis_version.h
-.\objects\stm32f1xx_it.o: ..\SDK\CMSIS\Include\cmsis_compiler.h
-.\objects\stm32f1xx_it.o: ..\SDK\CMSIS\Include\cmsis_armcc.h
-.\objects\stm32f1xx_it.o: ..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h
-.\objects\stm32f1xx_it.o: D:\T09_Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h
-.\objects\stm32f1xx_it.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h
-.\objects\stm32f1xx_it.o: ..\Core\stm32f1xx_it.h
-.\objects\stm32f1xx_it.o: ..\Driver\driver_usart.h
-.\objects\stm32f1xx_it.o: D:\T09_Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\stm32f1xx_it.o: ..\LR_driver\UserConfig.h
-.\objects\stm32f1xx_it.o: ..\quequ\myqueue.h
-.\objects\stm32f1xx_it.o: D:\T09_Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\stm32f1xx_it.o: D:\T09_Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\stm32f1xx_it.o: ..\LR_driver\src\sx126x.h
-.\objects\stm32f1xx_it.o: ..\Driver\driver_timer.h
+./objects/stm32f1xx_it.o: ..\Core\stm32f1xx_it.c \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h \
+  ..\Core\stm32f1xx_hal_conf.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h \
+  ..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h \
+  ..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h \
+  ..\SDK\CMSIS\Include\core_cm3.h \
+  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  ..\SDK\CMSIS\Include\cmsis_version.h \
+  ..\SDK\CMSIS\Include\cmsis_compiler.h \
+  D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h \
+  ..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h \
+  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h \
+  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h \
+  ..\Core\stm32f1xx_it.h ..\Driver\driver_usart.h \
+  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  ..\LR_driver\UserConfig.h ..\quequ\myqueue.h \
+  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  ..\LR_driver\src\sx126x.h ..\Driver\driver_timer.h

@@ -1,6 +1,5 @@
-.\objects\myqueue.o: ..\quequ\myqueue.c
-.\objects\myqueue.o: D:\T09_Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\myqueue.o: D:\T09_Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\myqueue.o: D:\T09_Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\myqueue.o: D:\T09_Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\myqueue.o: ..\quequ\myqueue.h
+./objects/myqueue.o: ..\quequ\myqueue.c \
+  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h ..\quequ\myqueue.h

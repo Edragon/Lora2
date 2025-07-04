@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: c Administrator, c, LIC=TIVNB-2I6E9-Z9SG9-4WRNY-JGC9X-PV7UK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  d:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.8.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+E:\Git-category\git-lora\Lora2\code-stm32\LR20&30-900-0.1\Project\DX_LoRa_Test.uvprojx
+Project File Date:  07/04/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'd:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'SPI_TESET'
+assembling startup_stm32f103xe.s...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_cortex.c...
+../Main/main.c(14): error: static declaration of 'rxbuff' follows non-static declaration
+static uint8_t rxbuff[SIZE_DATA] = {0};
+               ^
+../LR_driver\UserConfig.h(98): note: previous declaration is here
+extern uint8_t rxbuff[SIZE_DATA]; 
+               ^
+1 error generated.
+compiling main.c...
+compiling stm32f1xx_hal.c...
+compiling driver_spi.c...
+compiling stm32f1xx_clk.c...
+compiling driver_timer.c...
+../Driver/driver_usart.c(137): error: '#pragma import' is an Arm Compiler 5 extension, and is not supported by Arm Compiler for Embedded 6 [-Warmcc-pragma-import]
+#pragma import(__use_no_semihosting)
+        ^
+../Driver/driver_usart.c(139): error: redefinition of '__FILE'
+struct __FILE
+       ^
+d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h(119): note: previous definition is here
+struct __FILE {
+       ^
+2 errors generated.
+compiling driver_usart.c...
+compiling stm32f1xx_it.c...
+compiling driver_key.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_dma.c...
+compiling lr_fhss_mac.c...
+compiling stm32f1xx_hal_uart.c...
+compiling stm32f1xx_hal_usart.c...
+compiling sx126x_driver_version.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling sx126x.c...
+compiling stm32f1xx_hal_spi.c...
+compiling stm32f1xx_hal_tim.c...
+compiling sx126x_hal.c...
+compiling sx126x_lr_fhss.c...
+compiling myqueue.c...
+compiling UserConfig.c...
+".\Objects\915M.axf" - 3 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.0.pack
+                Keil.STM32F1xx_DFP.2.4.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:09
+</pre>
+</body>
+</html>
