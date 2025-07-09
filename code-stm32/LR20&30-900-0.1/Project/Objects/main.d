@@ -1,35 +1,41 @@
-./objects/main.o: ..\Main\main.c \
-  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h ..\Main\main.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h \
-  ..\Core\stm32f1xx_hal_conf.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h \
-  ..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h \
-  ..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h \
-  ..\SDK\CMSIS\Include\core_cm3.h \
-  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  ..\SDK\CMSIS\Include\cmsis_version.h \
-  ..\SDK\CMSIS\Include\cmsis_compiler.h \
-  D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h \
-  ..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h \
-  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h \
-  ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h \
-  ..\Core\stm32f1xx_clk.h ..\Driver\driver_usart.h \
-  ..\LR_driver\UserConfig.h ..\quequ\myqueue.h \
-  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
-  ..\LR_driver\src\sx126x.h ..\Driver\driver_spi.h \
-  ..\Driver\driver_timer.h ..\Driver\driver_key.h \
-  ..\Driver\driver_gpio.h
+.\objects\main.o: ..\Main\main.c
+.\objects\main.o: d:\MDK\Keil_v5\ARM\AC5\Bin\..\include\stdio.h
+.\objects\main.o: ..\Main\main.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h
+.\objects\main.o: ..\Core\stm32f1xx_hal_conf.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h
+.\objects\main.o: ..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h
+.\objects\main.o: ..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h
+.\objects\main.o: ..\SDK\CMSIS\Include\core_cm3.h
+.\objects\main.o: d:\MDK\Keil_v5\ARM\AC5\Bin\..\include\stdint.h
+.\objects\main.o: ..\SDK\CMSIS\Include\cmsis_version.h
+.\objects\main.o: ..\SDK\CMSIS\Include\cmsis_compiler.h
+.\objects\main.o: ..\SDK\CMSIS\Include\cmsis_armcc.h
+.\objects\main.o: ..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h
+.\objects\main.o: d:\MDK\Keil_v5\ARM\AC5\Bin\..\include\stddef.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h
+.\objects\main.o: ..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h
+.\objects\main.o: ..\Core\stm32f1xx_clk.h
+.\objects\main.o: ..\Driver\driver_usart.h
+.\objects\main.o: ..\LR_driver\UserConfig.h
+.\objects\main.o: ..\quequ\myqueue.h
+.\objects\main.o: d:\MDK\Keil_v5\ARM\AC5\Bin\..\include\stdbool.h
+.\objects\main.o: d:\MDK\Keil_v5\ARM\AC5\Bin\..\include\string.h
+.\objects\main.o: ..\LR_driver\src\sx126x.h
+.\objects\main.o: ..\Driver\driver_spi.h
+.\objects\main.o: ..\Driver\driver_timer.h
+.\objects\main.o: ..\Driver\driver_key.h
+.\objects\main.o: ..\Driver\driver_gpio.h

@@ -11,7 +11,7 @@
 
 uint8_t DataLen = 0;
 uint8_t pdata = 0;
-static uint8_t rxbuff[SIZE_DATA] = {0};
+uint8_t rxbuff[SIZE_DATA] = {0};
 
 void UartTimeroutStart(void)
 {

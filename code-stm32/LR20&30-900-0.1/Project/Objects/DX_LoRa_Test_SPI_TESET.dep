@@ -1,7 +1,7 @@
 Dependencies for Project 'DX_LoRa_Test', Target 'SPI_TESET': (DO NOT MODIFY !)
-CompilerVersion: 6190000::V6.19::ARMCLANG
-F (..\Main\main.c)(0x68592F54)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/main.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\AC5
+F (..\Main\main.c)(0x686D0212)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\main.o --depend .\objects\main.d)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (..\Main\main.h)(0x5FF6A99C)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
@@ -10,12 +10,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -33,14 +33,14 @@ I (..\Core\stm32f1xx_clk.h)(0x66AAF4AA)
 I (..\Driver\driver_usart.h)(0x66D6C1AC)
 I (..\LR_driver\UserConfig.h)(0x67EA4518)
 I (..\quequ\myqueue.h)(0x66D978A0)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
 I (..\LR_driver\src\sx126x.h)(0x657B213C)
 I (..\Driver\driver_spi.h)(0x66CD3DB8)
 I (..\Driver\driver_timer.h)(0x66D6A6EA)
 I (..\Driver\driver_key.h)(0x66D9843A)
 I (..\Driver\driver_gpio.h)(0x66ACA2F2)
-F (..\Core\stm32f1xx_it.c)(0x66D6CD4E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/stm32f1xx_it.o -MD)
+F (..\Core\stm32f1xx_it.c)(0x66D6CD4E)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\stm32f1xx_it.o --depend .\objects\stm32f1xx_it.d)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -48,12 +48,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -69,14 +69,14 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_it.h)(0x5ED127EC)
 I (..\Driver\driver_usart.h)(0x66D6C1AC)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (..\LR_driver\UserConfig.h)(0x67EA4518)
 I (..\quequ\myqueue.h)(0x66D978A0)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
 I (..\LR_driver\src\sx126x.h)(0x657B213C)
 I (..\Driver\driver_timer.h)(0x66D6A6EA)
-F (..\Core\stm32f1xx_clk.c)(0x66AAF494)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/stm32f1xx_clk.o -MD)
+F (..\Core\stm32f1xx_clk.c)(0x66AAF494)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\stm32f1xx_clk.o --depend .\objects\stm32f1xx_clk.d)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -84,12 +84,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -105,20 +105,20 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_clk.h)(0x66AAF4AA)
 F (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)()
-F (..\Core\system_stm32f1xx.c)(0x5ED127EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/system_stm32f1xx.o -MD)
+F (..\Core\system_stm32f1xx.c)(0x5ED127EC)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\system_stm32f1xx.o --depend .\objects\system_stm32f1xx.d)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -132,8 +132,8 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
-F (..\Core\startup_stm32f103xe.s)(0x5ED127E4)(--cpu Cortex-M3 -g --diag_suppress=A1950W-ID:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 538"--pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f103xe.lst--xref -o .\objects\startup_stm32f103xe.o--depend .\objects\startup_stm32f103xe.d)
-F (..\Driver\driver_usart.c)(0x66D6C55A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/driver_usart.o -MD)
+F (..\Core\startup_stm32f103xe.s)(0x5ED127E4)(--cpu Cortex-M3 -g --apcs=interwork -ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f103xe.lst --xref -o .\objects\startup_stm32f103xe.o --depend .\objects\startup_stm32f103xe.d)
+F (..\Driver\driver_usart.c)(0x686D0474)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\driver_usart.o --depend .\objects\driver_usart.d)
 I (..\Main\main.h)(0x5FF6A99C)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
@@ -142,12 +142,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -163,13 +163,13 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_clk.h)(0x66AAF4AA)
 I (..\Driver\driver_usart.h)(0x66D6C1AC)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (..\LR_driver\UserConfig.h)(0x67EA4518)
 I (..\quequ\myqueue.h)(0x66D978A0)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
 I (..\LR_driver\src\sx126x.h)(0x657B213C)
-F (..\Driver\driver_spi.c)(0x66D81A72)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/driver_spi.o -MD)
+F (..\Driver\driver_spi.c)(0x66D81A72)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\driver_spi.o --depend .\objects\driver_spi.d)
 I (..\Main\main.h)(0x5FF6A99C)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
@@ -178,12 +178,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -202,12 +202,12 @@ I (..\Driver\driver_spi.h)(0x66CD3DB8)
 I (..\Driver\driver_timer.h)(0x66D6A6EA)
 I (..\LR_driver\UserConfig.h)(0x67EA4518)
 I (..\quequ\myqueue.h)(0x66D978A0)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (..\LR_driver\src\sx126x.h)(0x657B213C)
-F (..\Driver\driver_key.c)(0x67B816F8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/driver_key.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+F (..\Driver\driver_key.c)(0x67B816F8)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\driver_key.o --depend .\objects\driver_key.d)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
 I (..\Main\main.h)(0x5FF6A99C)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
@@ -216,12 +216,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -239,10 +239,10 @@ I (..\Core\stm32f1xx_clk.h)(0x66AAF4AA)
 I (..\Driver\driver_key.h)(0x66D9843A)
 I (..\LR_driver\userConfig.h)(0x67EA4518)
 I (..\quequ\myqueue.h)(0x66D978A0)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (..\LR_driver\src\sx126x.h)(0x657B213C)
-F (..\Driver\driver_timer.c)(0x66D8185E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/driver_timer.o -MD)
+F (..\Driver\driver_timer.c)(0x66D8185E)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\driver_timer.o --depend .\objects\driver_timer.d)
 I (..\Main\main.h)(0x5FF6A99C)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
@@ -251,12 +251,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -272,7 +272,7 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_clk.h)(0x66AAF4AA)
 I (..\Driver\driver_timer.h)(0x66D6A6EA)
-F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c)(0x5ED127E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/stm32f1xx_hal.o -MD)
+F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c)(0x5ED127E8)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\stm32f1xx_hal.o --depend .\objects\stm32f1xx_hal.d)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -280,12 +280,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -299,7 +299,7 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
-F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c)(0x5ED127E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/stm32f1xx_hal_cortex.o -MD)
+F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c)(0x5ED127E8)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\stm32f1xx_hal_cortex.o --depend .\objects\stm32f1xx_hal_cortex.d)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -307,12 +307,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -326,7 +326,7 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
-F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c)(0x5ED127E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/stm32f1xx_hal_rcc.o -MD)
+F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c)(0x5ED127E8)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\stm32f1xx_hal_rcc.o --depend .\objects\stm32f1xx_hal_rcc.d)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -334,12 +334,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -353,7 +353,7 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
-F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c)(0x5ED127E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/stm32f1xx_hal_rcc_ex.o -MD)
+F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c)(0x5ED127E8)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\stm32f1xx_hal_rcc_ex.o --depend .\objects\stm32f1xx_hal_rcc_ex.d)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -361,12 +361,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -380,7 +380,7 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
-F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c)(0x5ED127E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/stm32f1xx_hal_gpio.o -MD)
+F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c)(0x5ED127E8)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\stm32f1xx_hal_gpio.o --depend .\objects\stm32f1xx_hal_gpio.d)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -388,12 +388,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -407,7 +407,7 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
-F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_usart.c)(0x5ED127E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/stm32f1xx_hal_usart.o -MD)
+F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_usart.c)(0x5ED127E8)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\stm32f1xx_hal_usart.o --depend .\objects\stm32f1xx_hal_usart.d)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -415,12 +415,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -434,7 +434,7 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
-F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c)(0x5ED127E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/stm32f1xx_hal_dma.o -MD)
+F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c)(0x5ED127E8)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\stm32f1xx_hal_dma.o --depend .\objects\stm32f1xx_hal_dma.d)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -442,12 +442,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -461,7 +461,7 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
-F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c)(0x5ED127E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/stm32f1xx_hal_uart.o -MD)
+F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c)(0x5ED127E8)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\stm32f1xx_hal_uart.o --depend .\objects\stm32f1xx_hal_uart.d)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -469,12 +469,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -488,7 +488,7 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
-F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c)(0x66D180DC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/stm32f1xx_hal_spi.o -MD)
+F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c)(0x66D180DC)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\stm32f1xx_hal_spi.o --depend .\objects\stm32f1xx_hal_spi.d)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -496,12 +496,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -515,7 +515,7 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
-F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c)(0x5ED127E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/stm32f1xx_hal_tim.o -MD)
+F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c)(0x5ED127E8)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\stm32f1xx_hal_tim.o --depend .\objects\stm32f1xx_hal_tim.d)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -523,12 +523,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -542,7 +542,7 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
-F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c)(0x5ED127E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/stm32f1xx_hal_tim_ex.o -MD)
+F (..\SDK\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c)(0x5ED127E8)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\stm32f1xx_hal_tim_ex.o --depend .\objects\stm32f1xx_hal_tim_ex.d)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -550,12 +550,12 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -569,27 +569,27 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
-F (..\LR_driver\src\lr_fhss_mac.c)(0x657B213C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/lr_fhss_mac.o -MD)
+F (..\LR_driver\src\lr_fhss_mac.c)(0x657B213C)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\lr_fhss_mac.o --depend .\objects\lr_fhss_mac.d)
 I (..\LR_driver\src\lr_fhss_mac.h)(0x657B213C)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
 I (..\LR_driver\src\lr_fhss_v1_base_types.h)(0x657B213C)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
-F (..\LR_driver\src\sx126x.c)(0x66CD7F30)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/sx126x.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
+F (..\LR_driver\src\sx126x.c)(0x66CD7F30)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\sx126x.o --depend .\objects\sx126x.d)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\LR_driver\src\sx126x.h)(0x657B213C)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
 I (..\LR_driver\src\sx126x_hal.h)(0x66D11E5E)
 I (..\LR_driver\src\sx126x_regs.h)(0x657B213C)
-F (..\LR_driver\src\sx126x_driver_version.c)(0x657B213C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/sx126x_driver_version.o -MD)
+F (..\LR_driver\src\sx126x_driver_version.c)(0x657B213C)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\sx126x_driver_version.o --depend .\objects\sx126x_driver_version.d)
 I (..\LR_driver\src\sx126x_driver_version.h)(0x657B213C)
-F (..\LR_driver\src\sx126x_hal.c)(0x68593282)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/sx126x_hal.o -MD)
+F (..\LR_driver\src\sx126x_hal.c)(0x68593282)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\sx126x_hal.o --depend .\objects\sx126x_hal.d)
 I (..\LR_driver\src\sx126x_hal.h)(0x66D11E5E)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
 I (..\Driver\driver_usart.h)(0x66D6C1AC)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5ED127E8)
@@ -599,9 +599,9 @@ I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -617,24 +617,24 @@ I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5ED127E8)
 I (..\LR_driver\UserConfig.h)(0x67EA4518)
 I (..\quequ\myqueue.h)(0x66D978A0)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
 I (..\LR_driver\src\sx126x.h)(0x657B213C)
 I (..\Driver\driver_spi.h)(0x66CD3DB8)
 I (..\Driver\driver_timer.h)(0x66D6A6EA)
 I (..\Driver\driver_key.h)(0x66D9843A)
 I (..\Driver\driver_gpio.h)(0x66ACA2F2)
-F (..\LR_driver\src\sx126x_lr_fhss.c)(0x657B213C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/sx126x_lr_fhss.o -MD)
+F (..\LR_driver\src\sx126x_lr_fhss.c)(0x657B213C)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\sx126x_lr_fhss.o --depend .\objects\sx126x_lr_fhss.d)
 I (..\LR_driver\src\lr_fhss_mac.h)(0x657B213C)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
 I (..\LR_driver\src\lr_fhss_v1_base_types.h)(0x657B213C)
 I (..\LR_driver\src\sx126x_lr_fhss.h)(0x657B213C)
 I (..\LR_driver\src\sx126x.h)(0x657B213C)
 I (..\LR_driver\src\sx126x_hal.h)(0x66D11E5E)
-F (..\LR_driver\UserConfig.c)(0x67FE256A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/userconfig.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+F (..\LR_driver\UserConfig.c)(0x67FE256A)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\userconfig.o --depend .\objects\userconfig.d)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (..\Main\main.h)(0x5FF6A99C)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5ED127E8)
 I (..\Core\stm32f1xx_hal_conf.h)(0x5FA3AEB6)
@@ -645,9 +645,9 @@ I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x5ED127E4)
 I (..\SDK\CMSIS\Include\core_cm3.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_version.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Include\cmsis_compiler.h)(0x5ED127E8)
-I (D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\SDK\CMSIS\Include\cmsis_armcc.h)(0x5ED127E8)
 I (..\SDK\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5ED127E4)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5ED127E8)
 I (..\SDK\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5ED127E8)
@@ -665,17 +665,17 @@ I (..\Core\stm32f1xx_clk.h)(0x66AAF4AA)
 I (..\Driver\driver_usart.h)(0x66D6C1AC)
 I (..\LR_driver\UserConfig.h)(0x67EA4518)
 I (..\quequ\myqueue.h)(0x66D978A0)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
 I (..\LR_driver\src\sx126x.h)(0x657B213C)
 I (..\Driver\driver_spi.h)(0x66CD3DB8)
 I (..\Driver\driver_timer.h)(0x66D6A6EA)
 I (..\Driver\driver_key.h)(0x66D9843A)
 I (..\Driver\driver_gpio.h)(0x66ACA2F2)
 I (..\LR_driver\src\sx126x_hal.h)(0x66D11E5E)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
-F (..\quequ\myqueue.c)(0x66D5845C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core -I ../Driver -I ../Main -I ../SDK/CMSIS/Include -I ../SDK/CMSIS/Device/ST/STM32F1xx/Include -I ../SDK/STM32F1xx_HAL_Driver/Inc -I ../SDK/STM32F1xx_HAL_Driver/Src -I ../sx126x_driver/src -I ../sx126x_driver -I ../quequ -I ../LR_driver/src -I ../LR_driver -I ../SDK/CMSIS/Include -I D:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o ./objects/myqueue.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdlib.h)(0x5E8E3CC2)
+F (..\quequ\myqueue.c)(0x66D5845C)(--c99 --gnu -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Core -I ..\Driver -I ..\Main -I ..\SDK\CMSIS\Include -I ..\SDK\CMSIS\Device\ST\STM32F1xx\Include -I ..\SDK\STM32F1xx_HAL_Driver\Inc -I ..\SDK\STM32F1xx_HAL_Driver\Src -I ..\sx126x_driver\src -I ..\sx126x_driver -I ..\quequ -I ..\LR_driver\src -I ..\LR_driver -I ..\SDK\CMSIS\Include -I C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MDK\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xE -DW25Q64="1"-o .\objects\myqueue.o --depend .\objects\myqueue.d)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
+I (d:\MDK\Keil_v5\ARM\AC5\include\stdio.h)(0x5E8E3CC2)
 I (..\quequ\myqueue.h)(0x66D978A0)

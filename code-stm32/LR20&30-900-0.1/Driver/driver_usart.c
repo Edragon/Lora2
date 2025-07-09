@@ -140,7 +140,7 @@ struct __FILE
 {
 	int a;
 };
- 
+
 FILE __stdout;
 FILE __stdin;
 void _sys_exit(int x)

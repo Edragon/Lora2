@@ -1,6 +1,7 @@
-./objects/sx126x.o: ..\LR_driver\src\sx126x.c \
-  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
-  ..\LR_driver\src\sx126x.h \
-  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  d:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  ..\LR_driver\src\sx126x_hal.h ..\LR_driver\src\sx126x_regs.h
+.\objects\sx126x.o: ..\LR_driver\src\sx126x.c
+.\objects\sx126x.o: d:\MDK\Keil_v5\ARM\AC5\Bin\..\include\stddef.h
+.\objects\sx126x.o: ..\LR_driver\src\sx126x.h
+.\objects\sx126x.o: d:\MDK\Keil_v5\ARM\AC5\Bin\..\include\stdint.h
+.\objects\sx126x.o: d:\MDK\Keil_v5\ARM\AC5\Bin\..\include\stdbool.h
+.\objects\sx126x.o: ..\LR_driver\src\sx126x_hal.h
+.\objects\sx126x.o: ..\LR_driver\src\sx126x_regs.h
