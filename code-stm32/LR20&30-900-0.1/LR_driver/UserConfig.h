@@ -61,7 +61,7 @@
 
 
 
-#define LORA_FRE									915000000	// frequency
+#define LORA_FRE									902000000	// frequency
 #define LORA_PREAMBLE_LENGTH                        8        // PREAMBLE LENGTH
 #define LORA_SX126x_SYMBOL_TIMEOUT                  0         // Symbols(SX126x)
 #define LORA_FIX_LENGTH_PAYLOAD_ON                  false			// PAYLOAD FIX LENGTH
